@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">XIV Relic Tracker</string>
+
+    <string name="loading_error">Unable to fetch quest data.  Please check your internet connection.\n\nError message: %1$s</string>
+
+    <string name="label_job_selection">Job Selection</string>
+    <string name="label_zodiac_weapon">Zodiac Weapon</string>
+    <string name="label_quest_settings">Tracker Settings</string>
+
+    <string name="label_drop_arrow">Drop Arrow</string>
+
+    <string name="pref_category_quest">Relic Tracker Settings</string>
+
+    <string name="pref_lang_title">Language</string>
+    <string name="pref_lang_key">lang</string>
+
+    <string name="pref_lang_entry_english">English</string>
+    <string name="pref_lang_entry_japanese">Japanese</string>
+    <string name="pref_lang_entry_german">German</string>
+    <string name="pref_lang_entry_french">French</string>
+    
+    <string name="pref_lang_value_english">en</string>
+    <string name="pref_lang_value_japanese">ja</string>
+    <string name="pref_lang_value_german">de</string>
+    <string name="pref_lang_value_french">fr</string>
+
+    <string name="pref_lang_default_value">@string/pref_lang_value_english</string>
+</resources>

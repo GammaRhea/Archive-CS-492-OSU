@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/job_selection">
+
+    <fragment
+        android:id="@+id/job_selection"
+        android:name="com.example.xivrelictracker.ui.JobSelectionFragment"
+        android:label="@string/label_job_selection">
+        <action
+            android:id="@+id/navigate_to_zodiac_weapon"
+            app:destination="@+id/zodiac_weapon" />
+        <action
+            android:id="@+id/navigate_to_settings"
+            app:destination="@+id/settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/zodiac_weapon"
+        android:name="com.example.xivrelictracker.ui.ZodiacWeaponFragment"
+        android:label="@string/label_zodiac_weapon">
+        <argument
+            android:name="job"
+            app:argType="com.example.xivrelictracker.data.JobObject" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.xivrelictracker.ui.SettingsFragment"
+        android:label="@string/label_quest_settings" />
+
+</navigation>
